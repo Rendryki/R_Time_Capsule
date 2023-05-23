@@ -15,7 +15,15 @@ To create memories, the user might insert an image, a description to the memory 
 As said before, after the memory is created, it will be shown in the 'memories' page with all the proper information inserted.
 
 ## How was is developed?
-It was developed using React, Next.js, Express and TypeScript. In addition to other technologies.
+It was developed using React, Next.js, Fastify and TypeScript. In addition to other technologies.
 
+The Web Development used React and Nextjs. The Mobile development used React Native. The Backend development used Express and TypeScript. Also, the application used TailWindCSS along side with other technologies, libraryes and tools.
 
+The Web Application was developed in TypeScript along with React and Next.Js. So, the routing on the web page is totally handled by Next.Js. All the data showed is fetched from the own application database. All the data inserted by the user is inserted in the own app database either. The GitHub account is loged in throwgh Oauth authentication. The Oauth authorization token is saved by cookies for a limited period of time. After the cookie expires, another login that generates another token for another 30 days is necessary.
 
+The Mobile App was also developed using TypeScript, but together with React Native and Expo. Routing in the mobile app is completely handled by the Expo tools for React Native. All the data showed is fetched from the own application database. All the data inserted by the user is inserted in the own app database either. The GitHub account is loged in throwgh Oauth authentication. The Oauth authorization token is saved by a cookies handler forneced by Expo. Those autentication token are not expireble in the Mobile App. 
+
+The Backend was developed using TypeScript and Node.js. It was used Fastify to handle the comunication with the Database and the routing inside the Backend. Also, the app used Axios to communicate with GitHub and get the login Oauth authorization. Axios was also used in the Mobile and Web to comunicate with the backend server.
+The Database communication happens with Prisma Studio contribution. It is a relational database and its query was written with the support of Prisma.
+
+Last but not least. All of the application development process occurred together with the 'Next Level Week' event offered by Rocketseat in their own platform. It can be accessed by the following URL: https://app.rocketseat.com.br
