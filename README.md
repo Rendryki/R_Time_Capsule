@@ -1,7 +1,7 @@
 # R_Time_Capsule
 This is a Full Application with Web, Mobile and BackEnd!
 
-## How Wdoes it works? 
+## How does it works? 
 The Application goal is to deliver to the user a time capsule, with the date, image and description of the memory that the user might want to insert to its Time Capsule. It counts with a Mobile and a Web version.
 
 Both the Mobile or Web versions work the same way. In the home page, the user needs to sincronize with a GitHub account. Then, when the user is properly logged in, it will show the options of logging out the application, creating a new memory or showing the memories that was already created before (if there is no memory, the page will be blank).
